@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Raleway');
+}
+body{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: lighter !important;
+    color: black !important;
+    /*background-color: #343434 !important;*/
+}
+nav{
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif !important;
+    border-bottom: solid 1px #BF02FF  !important;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    color: #000000 !important;
+    font-size: 2.5em !important;
+}
+li.active a{
+    color: #BF02FF !important;
+    background-color: transparent !important;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+li a:hover{
+    font-weight: bold;
+    color: #BF02FF !important;
+}
+
+#Main{
+    margin:0;
+}
+.columns{
+    border-left: #BF02FF 1px solid;
+}
+.column-Recent{
+    border-right: #BF02FF 1px solid;
+}
+#pre{
+    color: Black !important;
+    background-repeat: no-repeat;
+    background-position: left 56px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif !important;
+}
+#items{
+    padding-top:15px;
+}
+.ls{
+    padding-top:15px;
+}
+.feet{
+    font-size: 0.8em !important;
+}
+.center{
+    margin:auto;
+    width:100%;
+    padding:30px;
+
+}
+#login{
+    height: 900px;
+    background-image: url("back2.png");
+    background-position: -20px center;
+    background-repeat: no-repeat;
+}
+#register{
+    height:900px;
+    background-image: url("back2.png");
+    background-repeat: no-repeat;
+    background-position: -20px center;
+}
+.text-area{
+    outline: none !important;
+    resize: none !important;
+    height:100px !important;
+    -webkit-transition: all 0.2s ease-in-out !important;
+    -moz-transition: all 0.2s ease-in-out !important;
+    -ms-transition: all 0.2s ease-in-out !important;
+    -o-transition: all 0.2s ease-in-out !important;
+    transition: all 0.2s ease-in-out !important;
+}
+.text-area:focus{
+    height: 300px !important;
+}
+#posts {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+#result ul{
+    padding:0 !important;
+    margin:0 !important;
+    list-style: none !important;
+    font-size: 1.5em !important;
+}
+#result ul li:hover{
+    cursor: pointer !important;
+    color: #BF02FF !important;
+    text-decoration: underline #BF02FF !important ;
+}
+.editForms{
+    border-bottom: 1px dotted #BF02FF !important;
+    padding-bottom:10px !important;
+    margin-bottom:10px !important;
+}
+[type=radio]{
+    padding:0;
+    margin:0;
+    opacity:0 !important;
+}
+[type=radio]:checked + img {
+    outline: 1px solid #BF02FF;
+}
